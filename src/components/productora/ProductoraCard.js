@@ -15,7 +15,7 @@ export const ProductoraCard = (props) => {
             <p className="card-text">{`Slogan: ${productora.slogan}`}</p>
             <p className="card-text">{`Descripción: ${productora.descripcion}`}</p>
             <p className="card-text">
-              <Link to={`productora/edit/${productora._id}`}>Ver más...</Link>
+              <Link to={`productora/edit/${productora._id}`}>Editar...</Link>
             </p>
         </div>
       </div>

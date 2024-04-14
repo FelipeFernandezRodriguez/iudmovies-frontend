@@ -99,7 +99,7 @@ export const ProductoraUpdate = () => {
                         </div>
                         <div className='col'>
                         <div className="mb-3">
-                            <label className="form-label">Descripción</label>
+                            <label className="form-label">Slogan</label>
                             <input type="text" name='slogan' required minLength={3} value={slogan} onChange={ (e) => handleOnChange (e) } className="form-control" />
                         </div>
                         </div>

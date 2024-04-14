@@ -24,6 +24,7 @@ const App = () => {
         <Route exact path='/media/edit/:mediaId' component = { MediaUpdate } />
         <Route exact path='/genero/edit/:generoId' component = { GeneroUpdate } />
         <Route exact path='/tipo/edit/:tipoId' component = { TipoUpdate } />
+        <Route exact path='/director/edit/:directorId' component = { DirectorUpdate } />
         <Route exact path='/productora/edit/:productoraId' component = { ProductoraUpdate } />
         <Redirect to='/' />
       </Switch>

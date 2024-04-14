@@ -13,7 +13,7 @@ export const DirectorCard = (props) => {
             <hr />
             <p className="card-text">{`Estado: ${director.estado}`}</p>
             <p className="card-text">
-              <Link to={`director/edit/${director._id}`}>Ver más...</Link>
+              <Link to={`director/edit/${director._id}`}>Editar...</Link>
             </p>
         </div>
       </div>

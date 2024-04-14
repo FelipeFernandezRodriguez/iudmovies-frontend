@@ -13,7 +13,7 @@ export const TipoCard = (props) => {
             <hr />
             <p className="card-text">{`Descripción: ${tipo.descripcion}`}</p>
             <p className="card-text">
-              <Link to={`tipo/edit/${tipo._id}`}>Ver más...</Link>
+              <Link to={`tipo/edit/${tipo._id}`}>Editar...</Link>
             </p>
         </div>
       </div>

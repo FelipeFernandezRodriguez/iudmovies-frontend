@@ -14,7 +14,7 @@ export const GeneroCard = (props) => {
             <p className="card-text">{`Estado: ${genero.estado}`}</p>
             <p className="card-text">{`Descripción: ${genero.descripcion}`}</p>
             <p className="card-text">
-              <Link to={`genero/edit/${genero._id}`}>Ver más...</Link>
+              <Link to={`genero/edit/${genero._id}`}>Editar...</Link>
             </p>
         </div>
       </div>

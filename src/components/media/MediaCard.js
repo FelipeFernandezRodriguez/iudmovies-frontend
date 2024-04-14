@@ -14,8 +14,7 @@ export const MediaCard = (props) => {
             <hr />
             <p className="card-text">{`Sinopsis: ${media.sinopsis}`}</p>
             <p className="card-text">{`Genero: ${media.genero.nombre}`}</p>
-            <p className="card-text">{`Director: ${media.director.nombre}`}</p>
-            <p className="card-text">{`Productora: ${media.productora.nombre}`}</p>
+            <p className="card-text">URL: <a href={media.url} target="_blank" rel="noopener noreferrer">{media.url}</a></p>
             <p className="card-text">{`Tipo: ${media.tipo.nombre}`}</p>
             <p className="card-text">
               <Link to={`media/edit/${media._id}`}>Ver más...</Link>
